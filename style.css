@@ -123,4 +123,39 @@
      width:583px;
      height:150px;
  }
+
+ @media only screen and (max-width:688px) {
+    .conatiner{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       height: 970px;
+    }
+     .header-info{
+        width: 60%;
+        padding-left: 16px;
+        padding-top: 80px;
+        padding-right: 60px;
+     }
+     .header-info p{
+        color: white;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 80px;
+        padding-bottom: 25px;
+     }
+  ..header-image img{
+     width: 330px;
+     height: 260px;
+
+  }   
+
+  .players{
+     display: grid;
+     grid-template-columns: repeat(1, 1f1);
+     justify-content: center;
+  }
+  .foot img{
+     width: 70%;
+  }    
+ }
  
